@@ -3,6 +3,8 @@ uvicorn[standard]==0.24.0
 sqlalchemy==2.0.23
 psycopg2-binary==2.9.9
 python-multipart==0.0.6
-python-jose[cryptography]==3.3.0
+ 
+cryptography==41.0.7  # or any stable version <42
+python-jose==3.3.0
 passlib[bcrypt]==1.7.4
 pydantic[email]==2.5.0
